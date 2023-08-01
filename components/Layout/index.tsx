@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import header from '../Header';
 
 const Layout = ({ children }: any) => {
     return (
