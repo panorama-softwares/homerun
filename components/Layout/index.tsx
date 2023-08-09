@@ -1,16 +1,11 @@
-import React from 'react';
-import header from '../Header';
-
-const Layout = ({ children }: any) => {
-    return (
-        <>
-            <main>
-                {
-                    children
-                }
-            </main>
-        </>
-    )
-}
-
-export default Layout
+import React, { PropsWithChildren } from "react";
+import Navbar from "../Header/index";
+const Layout = ({ children }: PropsWithChildren) => {
+  return (
+    <>
+      <Navbar />
+      {children}
+    </>
+  );
+};
+export default Layout;
