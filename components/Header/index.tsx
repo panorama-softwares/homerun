@@ -187,11 +187,13 @@ export default function Navbar() {
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <Image
                 src="https://panoramasoftwares.com/assets/images/logoFile/panorama-dark-logo.png"
-                width="80"
-                height="80"
+                width="160"
+                height="160"
                 alt="Panorama Logo"
               ></Image>
-              <span className="font:semi-bold">taking you Forward...</span>
+              <span className="font:semi-bold font-sans">
+                taking you Forward...
+              </span>
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -252,14 +254,14 @@ export default function Navbar() {
                     </Link>
                   </div>
                   <div
-                    class="invisible absolute z-50 flex w-full flex-col bg-gray-100 py-3 px-8 text-gray-800 shadow-xl group-hover:visible"
+                    class="invisible absolute z-50 flex w-90 h-70 flex-col bg-gray-100 py-3 px-3 gap-x-4 text-gray-800 shadow-xl group-hover:visible"
                     onClick=""
                   >
                     <Link
                       href=""
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
-                      Web Development
+                      Website Development
                     </Link>
 
                     <Link
