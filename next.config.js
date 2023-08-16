@@ -2,6 +2,6 @@
 
 module.exports = {
   images: {
-    domains: ["panoramasoftwares.com", "global-uploads.webflow.com"],
+    domains: ["panoramasoftwares.com", "global-uploads.webflow.com","img.freepik.com","blog.panoramasoftwares.com"],
   },
 };

@@ -17,7 +17,13 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
       purple: "#f3e8ff",
+      blue:"#2B6CB0",
+      white:"#FFFFFF",
+      orange:"#F6AD55",
+      gray:"#111827"
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 };
