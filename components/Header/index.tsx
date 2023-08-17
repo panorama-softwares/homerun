@@ -181,18 +181,17 @@ export default function Navbar() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav className="w-full bg-blue shadow sticky top=10">
+      <nav className="w-full bg-white-800 shadow sticky top=10">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-5">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <Image
-                src="https://panoramasoftwares.com/assets/images/logoFile/panorama-light-logo.png"
-                width="190"
-                height="180"
+                src="https://panoramasoftwares.com/assets/images/logoFile/panorama-dark-logo.png"
+                width="160"
+                height="160"
                 alt="Panorama Logo"
-                
               ></Image>
-              <span className="font:semi-bold font-sans text-white">
+              <span className="font:semi-bold font-sans">
                 taking you Forward...
               </span>
               <div className="md:hidden">
@@ -240,22 +239,22 @@ export default function Navbar() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-sans">
-                <li className="text-white hover:text-violet-500 font-semibold cursor-pointer">
+                <li className="text-black hover:text-violet-500 font-semibold">
                   <Link href="/">Home</Link>
                 </li>
-                
-                <div className="group relative cursor-pointer py-2 ">
-                  <button data-dropdown-toggle="dropdown" className="flex items-center justify-between space-x-1  px-4 text-white" data-dropdown-trigger="{hover|click}" type="button">
+
+                <div className="group relative cursor-pointer py-2">
+                  <div className="flex items-center justify-between space-x-5 bg-white px-4">
                     <Link
                       href="/services"
-                      className="menu-hover my-2 text-base font-medium text-black lg:mx-1"
+                      className="menu-hover my-2 py-2 text-base font-medium text-black lg:mx-4"
                       onClick=""
                     >
                       Services
                     </Link>
-                  </button>
+                  </div>
                   <div
-                    class="invisible absolute z-50 flex w-90 h-50 flex-col bg-white rounded py-3 px-3 gap-x-4 text-gray-800 shadow-xl group-hover:visible"
+                    class="invisible absolute z-50 flex w-90 h-70 flex-col bg-gray-100 py-3 px-3 gap-x-4 text-gray-800 shadow-xl group-hover:visible"
                     onClick=""
                   >
                     <Link
@@ -316,13 +315,13 @@ export default function Navbar() {
                   </div>
                 </div>
 
-                <li className="text-white hover:text-violet-500 font-semibold cursor-pointer">
+                <li className="text-black hover:text-violet-500 font-semibold">
                   <Link href="/contact">Contact Us</Link>
                 </li>
-                <li className="text-white hover:text-violet-500 font-semibold cursor-pointer">
+                <li className="text-black hover:text-violet-500 font-semibold">
                   <Link href="/about">About</Link>
                 </li>
-                <li className="text-white hover:text-violet-500 font-semibold cursor-pointer">
+                <li className="text-black hover:text-violet-500 font-semibold">
                   <Link href="/blog">Blog</Link>
                 </li>
               </ul>
