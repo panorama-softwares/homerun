@@ -1,12 +1,21 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 export default function about()
 { return(
     <>
-     <header className="h-60 w-100 bg-cyan-700 text-center">
+     <header className="h-96 w-100  bg-bluer text-center" style={{
+        
+        backgroundImage:`url('/img.jpg')`,
+        height:"400",
+     }}>
     
-    <div >
-        <div className="pt-8">
+    <div className="bg-blur">
+        
+        
+        <div 
+        className="pt-16 ">
             <h1 className="text-white text-6xl  font-bold ">About us</h1>
         </div>
 

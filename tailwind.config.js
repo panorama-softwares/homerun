@@ -17,21 +17,27 @@ module.exports = {
         },
       },
 
-    //     colors: {
-    //       transparent:"transparent",
-    //       current: "currentColor",
-    //       purple: "#f3e8ff",
-    //       blue:"#2B6CB0",
-    //       white:"#FFFFFF",
-    //       orange:"#F6AD55",
-    //       gray:"#111827"
+     colors: {
+  
+      transparent:"transparent",
+           current: "currentColor",
+           purple: "#f3e8ff",
+         bluer:"#2B6CB0",
+          white:"#FFFFFF",
+         orange:"#F6AD55",
+           gray:"#111827",
+          blue:"#1d262d",
+          grey:"#6c757d",
+          white:"#fff"
         
         
         
         
-    // },
+    },
   },
   plugins: [],
 }
+  
+  
 
 
