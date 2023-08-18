@@ -30,16 +30,16 @@ export default function contact() {
           24x7 support over email,<br></br>
           phone, or chat<br></br>hr@panoramasoftware.in
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-telephone-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
 </svg>
         <div>
           Phone<br></br>+91 98888-87651
         </div>
       </div>
-      <h2>
-        <Link href="/">Back to home</Link>
-      </h2>
+      <div className="text-center font-bold text-3xl py-8 "><p className="pb-8">FIND US!</p><p>Tower 1 - 1017-1018, Assotech Business Cresterra,<br></br> Sector 135, Noida, Uttar Pradesh 201304</p></div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.464729949969!2d77.39939317549579!3d28.495662475739728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce938eee0193d%3A0xe337701f206b108f!2sPanorama%20Software%20Solutions!5e0!3m2!1sen!2sin!4v1692336471119!5m2!1sen!2sin" width="1400" height="550" className="border:0; loading:lazy referrerpolicy:no-referrer-when-downgrade"></iframe>
+     
     </>
   );
 }

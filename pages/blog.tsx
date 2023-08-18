@@ -1,17 +1,48 @@
 import Link from "next/link";
 import Image from "next/image";
+import blg1 from "./blg1.jpg"
+import blg2 from "./blg2.jpg"
+import blg3 from "./blg3.jpg"
+import blg4 from "./blg4.jpg"
+import blg5 from "./blg5.jpg"
+import blg6 from "./blg6.jpg"
 
 export default function blog() {
   return (
     <>
-      <h1>Blog Page</h1>
+      
      <body>
-      <div className="w-full h-screen bg-blue flex flex-wrap">
-    <Image className="basis-1/3" src="http://blog.panoramasoftwares.com/wp-content/uploads/2021/10/9162ceb4-dc59-44b2-ad90-448e58bef565-1024x1024.jpg" alt="logo" height="10" width="30"></Image>
-    <Image className="basis-1/3" src="http://blog.panoramasoftwares.com/wp-content/uploads/2021/10/fb90cd09-1900-47ac-a487-3322b7e78635.jpg" alt="logo" height="10" width="50"></Image>
-    <Image className="basis-1/3" src="http://blog.panoramasoftwares.com/wp-content/uploads/2021/10/8a1bf80f-9192-48e6-b91c-2a736f84f860.jpg" alt="logo" height="10" width="50"></Image>
-      <Image className="basis-1/3" src="http://blog.panoramasoftwares.com/wp-content/uploads/2021/11/b9cdcdfe-37cd-46a6-a245-d512e52d0538-1024x1024.jpg" alt="logo" height="10" width="50"></Image>
-      <Image className="basis-1/3" src="http://blog.panoramasoftwares.com/wp-content/uploads/2021/12/32d84056-640e-4d13-9554-fb9d36ce69bc-1024x1024.jpg" alt="logo" height="10" width="50"></Image>
+      <div className="w-full h-max bg-white flex flex-wrap px-10 justify-evenly py-10 my-10 mx-10">
+        <div className="conatiner basis-1/3 my-3">
+         <Image priority src={blg1} alt="logo" height={300} width={300}></Image>
+         <div className="py-3 font-semibold text-left">IMPORTANCE OF A QA ANALYST</div>
+         <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2">Click here</button>
+        </div>
+        <div className="basis-1/3  my-3">
+        <Image priority src={blg2} alt="logo" height={300} width={300}></Image>
+        <div className="py-3 font-semibold text-left">5 Best Web Development Frameworks To<br></br> Use In 2021</div>
+        <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2">Click here</button>
+        </div>
+        <div className="basis-1/3  my-3">
+        <Image priority src={blg3} alt="logo" height={300} width={300}></Image>
+        <div className="py-3 font-semibold text-left">NATIVE VS HYBRID APPLICATIONS</div>
+        <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2">Click here</button>
+        </div>
+        <div className="basis-1/3  my-5">
+        <Image priority src={blg4} alt="logo" height={300} width={300}></Image>
+        <div className="py-3 font-semibold text-left">WHY IS OUTSOURCING QA BENEFICIAL?</div>
+        <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2">Click here</button>
+        </div>
+        <div className="basis-1/3  my-5">
+        <Image priority src={blg5} alt="logo" height={300} width={300}></Image>
+        <div className="py-3 font-semibold text-left">WHY IS OUTSOURCING QA BENEFICIAL?</div>
+        <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2">Click here</button>
+        </div>
+        <div className="basis-1/3  my-5">
+        <Image priority src={blg6} alt="logo" height={300} width={300}></Image>
+        <div className="py-3 font-semibold text-left">WHAT ARE THE GOALS OF SOFTWARE TESTING?</div>
+        <button className="bg-green border mx-28 text-white rounded  h-10 w-38 px-2">Click here</button>
+        </div>
       </div>
      </body>
     </>
