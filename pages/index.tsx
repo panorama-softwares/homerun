@@ -1,5 +1,3 @@
-import Layout from "../components/Layout";
-import Header from "../components/Header";
 import Image from "next/image";
 import icon from '../public/rocket.svg';
 import setting from './settings.svg';
