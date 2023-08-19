@@ -1,14 +1,7 @@
-// /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-
-
+/* @type {import('next').NextConfig} */
 
 module.exports = {
-    images:{
-        domains:["panoramasoftwares.com"]
-    },
-    
+  images: {
+    domains: ["panoramasoftwares.com", "global-uploads.webflow.com","img.freepik.com","blog.panoramasoftwares.com"],
+  },
 };
-
-
