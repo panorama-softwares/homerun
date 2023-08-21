@@ -14,14 +14,14 @@ export default function Footer() {
   // const [Footer, setFooter] = useState(false);
   return (
     <div>
-      <footer className="text-gray-600 body-font bg-blue mt-8">
+      <footer className="text-gray-600 body-font bg-gray mt-8">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="flex-shrink-0 md:mx-0 mx-auto text-center md:text-left lg:w-1/4 md:w-1/2 w-full px-4 space-x-6">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
               <Image src="https://panoramasoftwares.com/assets/images/logoFile/panorama-light-logo.png" alt="logo" height="200" width="200"></Image>
             </a>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-            <p className="mt-2 !ml-0 text-sm text-grey">In panorama software solutions, our goal is innovation, with the aim of leaving
+            <p className="mt-2 !ml-0 text-sm text-white">In panorama software solutions, our goal is innovation, with the aim of leaving
               a mark worth following and imitating. Our endeavour began in 2018, when the founders of this venture Akshay
               Garg and Lokesh Singla, had a vision of promoting innovation. Today, we are a team of 60+ highly skilled
               employees who deliver exceptional work and make dreams come true.</p>
@@ -31,28 +31,28 @@ export default function Footer() {
               <h2 className="title-font font-medium text-white tracking-widest text-sm  pb-2 ml-5 text-left space-x-6">SERVICES</h2>
               <nav className="list-none ml-0 ">
                 <li className="pb-2">
-                  <a className="text-grey hover:text ">Website Development</a>
+                  <a className="text-white hover:text ">Website Development</a>
                 </li>
                 <li className="pb-2">
-                  <a className="text-grey hover:text ">Mobile Application Development</a>
+                  <a className="text-white hover:text ">Mobile Application Development</a>
                 </li>
                 <li className="pb-2">
-                  <a className="text-grey hover:text ">Desktop App Development</a>
+                  <a className="text-white hover:text ">Desktop App Development</a>
                 </li>
                 <li className="pb-2">
-                  <a className="text-grey hover:text-gray-800  text-center">Search Engine Optimization</a>
+                  <a className="text-white hover:text-gray-800  text-center">Search Engine Optimization</a>
                 </li>
                 <li className="pb-2">
-                  <a className="text-grey hover:text-gray-800 ">Business Branding</a>
+                  <a className="text-white hover:text-gray-800 ">Business Branding</a>
                 </li>
                 <li className="pb-2">
-                  <a className="text-grey hover:text-gray-800 ">Graphics Designing</a>
+                  <a className="text-white hover:text-gray-800 ">Graphics Designing</a>
                 </li>
                 <li className="pb-2">
-                  <a className="text-grey hover:text-gray-800 ">Custom Web Solution</a>
+                  <a className="text-white hover:text-gray-800 ">Custom Web Solution</a>
                 </li>
                 <li className="pb-2">
-                  <a className="text-grey hover:text-gray-800 ">Social Media Marketing</a>
+                  <a className="text-white hover:text-gray-800 ">Social Media Marketing</a>
                 </li>
               </nav>
             </div>
@@ -61,16 +61,16 @@ export default function Footer() {
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3 space-x-10 text-left ml-6">USEFUL LINKS</h2>
               <nav className="list-none mb-10 ">
                 <li className="pb-2">
-                  <a className="text-grey hover:text-gray-800 ">Home</a>
+                  <a className="text-white hover:text-gray-800 ">Home</a>
                 </li>
                 <li className="pb-2">
-                  <a className="text-grey hover:text-gray-800 ">About</a>
+                  <a className="text-white hover:text-gray-800 ">About</a>
                 </li>
                 <li className="pb-2">
-                  <a className="text-grey hover:text-gray-800 ">Contact</a>
+                  <a className="text-white hover:text-gray-800 ">Contact</a>
                 </li>
                 <li className="pb-2">
-                  <a className="text-grey hover:text-gray-800 ">Technology</a>
+                  <a className="text-white hover:text-gray-800 ">Technology</a>
                 </li>
               </nav>
             </div>
