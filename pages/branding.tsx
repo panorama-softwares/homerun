@@ -1,0 +1,48 @@
+import React from 'react'
+import Image from 'next/image'
+import img2 from './branding.jpg'
+
+export default function mobile() {
+  return (
+  <>
+  <header className="h-80 w-100  bg-blue text-center">
+        
+        
+        
+        <div className="pt-16 ">
+            <h1 className="text-white text-6xl  font-bold ">BUSINESS BRANDING</h1>     </div>
+        
+        </header>
+        <div className='flex'>
+            <div>
+            <p className='leading-8  mx-20 mt-5  pt-20'>
+            In business, reputation is everything and we are here to help you to make
+             your online reputation great. We create World-class logo design with best
+              principles of visual hierarchy. We also help for Re-branding to give 
+              your business a new boost.<br></br>
+
+             We’ve been building websites and mobile applications for a while 
+             now, so we can help design, develop and manage your product development. 
+             The ultimate goal for any product is to help you get new customers 
+             and increase your revenue and we utilize technology to bring results to grow your business.
+            </p>
+            </div>
+            <Image className="h-96 w-90  pt-12 place-self-center mr-4" src={img2} alt="logo" height={350} width={400} ></Image>
+        </div>
+
+        <div>
+            <h1 className='bold text-2xl mx-20 font-bold'>Branding Services</h1>
+            <ul className="list-disc mx-20 pb-10">
+                <li>Logo Designing</li>
+                <li>Social Media Management</li>
+                <li>Website hosting</li>
+                 <li>Our web solutions</li>
+                 <li>Custom website design and innovative solutions</li>
+                  <li>Search Engine Optimization (SEO)</li>
+            </ul>
+        </div>
+  
+  
+  
+  </>
+  )}
