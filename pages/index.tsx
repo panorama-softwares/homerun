@@ -1,3 +1,4 @@
+
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Link from "next/link";
@@ -17,8 +18,7 @@ import fast from './fast.svg'
 export default function Home({}) {
   return (
     <>
-      {/* <Header></Header> */}
-      {/* <Layout></Layout> */}
+      
       <header className="h-96 w-100 px-20 bg-blue py-20 text-center" style={{
     backgroundImage: `url('./back.png')`,
      height: "900",

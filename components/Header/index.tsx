@@ -83,13 +83,12 @@ export default function Navbar() {
                     <Link
                       href=""
                       className="menu-hover my-2 text-base font-medium text-black lg:mx-1"
-                      onClick=""
                     >
                       Services
                     </Link>
                   </button>
                   <div
-                    class="invisible absolute z-50 flex w-max h-50 flex-col bg-white rounded py-3 px-3 gap-x-4 text-gray-800 shadow-xl group-hover:visible"
+                    className="invisible absolute z-50 flex w-90 h-50 flex-col bg-white rounded py-3 px-3 gap-x-4 text-gray-800 shadow-xl group-hover:visible"
                     onClick=""
                   >
                     <Link
@@ -100,8 +99,12 @@ export default function Navbar() {
                     </Link>
 
                     <Link
+
                       href=""
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
+
+                      href="/mobile"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Mobile Application Development
                     </Link>
@@ -111,9 +114,13 @@ export default function Navbar() {
                     >
                       Quality Assurance
                     </Link>
-                    <Link
+
                       href=""
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
+
+                      href="/desktop"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
+
                     >
                       Desktop App Development
                     </Link>
@@ -124,8 +131,13 @@ export default function Navbar() {
                       Search Engine Optimization
                     </Link>
                     <Link
+
                       href=""
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
+
+                      href="/branding"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
+
                     >
                       Business Branding
                     </Link>
@@ -167,4 +179,3 @@ export default function Navbar() {
     </div>
   );
 }
- 
