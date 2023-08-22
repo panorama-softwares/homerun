@@ -111,7 +111,7 @@ export default function Navbar() {
                       Quality Assurance
                     </Link>
                     <Link
-                      href=""
+                      href="/desktop"
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Desktop App Development
@@ -123,7 +123,7 @@ export default function Navbar() {
                       Search Engine Optimization
                     </Link>
                     <Link
-                      href=""
+                      href="/branding"
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Business Branding
