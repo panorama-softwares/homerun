@@ -89,23 +89,23 @@ export default function Navbar() {
                   </button>
                   <div
                     className="invisible absolute z-50 flex w-90 h-50 flex-col bg-white rounded py-3 px-3 gap-x-4 text-gray-800 shadow-xl group-hover:visible"
-                    
+                    onClick=""
                   >
                     <Link
-                      href=""
+                      href="/website"
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Website Development
                     </Link>
 
                     <Link
-                      href=""
+                      href="/mobile"
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Mobile Application Development
                     </Link>
                     <Link
-                      href=""
+                      href="/quality"
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Quality Assurance
@@ -117,7 +117,7 @@ export default function Navbar() {
                       Desktop App Development
                     </Link>
                     <Link
-                      href=""
+                      href="/search"
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Search Engine Optimization
@@ -129,7 +129,7 @@ export default function Navbar() {
                       Business Branding
                     </Link>
                     <Link
-                      href=""
+                      href="/graphic"
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Graphic Designing
@@ -141,7 +141,7 @@ export default function Navbar() {
                       Custom Web Solution
                     </Link>
                     <Link
-                      href=""
+                      href="/social"
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Social Media Marketing
