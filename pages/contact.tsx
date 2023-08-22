@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function contact() {
   return (
@@ -36,7 +37,9 @@ export default function contact() {
         <div>
           Phone<br></br>+91 98888-87651
         </div>
+        
       </div>
+      
       <div className="text-center font-bold text-3xl py-8 "><p className="pb-8">FIND US!</p><p>Tower 1 - 1017-1018, Assotech Business Cresterra,<br></br> Sector 135, Noida, Uttar Pradesh 201304</p></div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.464729949969!2d77.39939317549579!3d28.495662475739728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce938eee0193d%3A0xe337701f206b108f!2sPanorama%20Software%20Solutions!5e0!3m2!1sen!2sin!4v1692336471119!5m2!1sen!2sin" width="1400" height="550" className="border:0; loading:lazy referrerpolicy:no-referrer-when-downgrade"></iframe>
      

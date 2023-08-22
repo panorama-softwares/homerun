@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
+import Link from "next/link";
 import Image from "next/image";
 import icon from '../public/rocket.svg';
 import setting from './settings.svg';
@@ -54,7 +55,7 @@ export default function Home({}) {
         <div>
         <h3 className="text-4xl font-bold pb-8 mx-44">WHY CHOOSE US?</h3>
              <p className="mx-44">What makes Panorama stand out of the ordinary isn&rsquo;t our history of providing exceptional work on time, rather building long lasting company-client relationships. We are a one stop shop for all your business technology needs. We are much more than a company, we are your business partner, just a phone call away, 24/7. Let&rsquo;s connect!</p>
-             <button className="bg-gray hover:opacity-50 text-white px-3 py-3 ml-44 mt-8 rounded">Read More</button>
+             <button className="bg-gray hover:opacity-50 text-white px-3 py-3 ml-44 mt-8 rounded"><Link href="/about">Read More</Link></button>
         </div>
        
        </div>

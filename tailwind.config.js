@@ -20,8 +20,9 @@ module.exports = {
       blue:"#0027a7",
       white:"#FFFFFF",
       orange:"#fad390",
-      gray:"#111827",
+      gray:"#1d262d",
       green:"#4ade80",
+      light:"#a5b7c6",
     },
   },
   plugins: [
