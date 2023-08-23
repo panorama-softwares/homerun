@@ -5,18 +5,13 @@ import img from './mobile.jpg'
 export default function mobile() {
   return (
     <>
-        <header className="h-80 w-100  bg-bluer text-center">
-        <div className="bg-blur">
         
-        
-        <div 
-        className="pt-16 ">
-            <h1 className="text-white text-6xl  font-bold ">MOBILE APPLICATION DEVELOPMENT</h1>
-        </div>
-
-        
-        </div>
-        </header>
+        <header className="h-60 w-100 bg-blue text-white px-20 py-10 text-center">   
+        <div className="flex  justify-center flex-col">
+          <h1 className="text-5xl font-semibold">MOBILE APPLICATION DEVELOPMENT
+          </h1>
+          </div>
+          </header>
         <div className="flex h-max w-100 my-10 mx-10 pl-5">   
         <div>
         <h1 className="pt-20 text-black pb-3 font-semibold text-4xl ">Mobile Development</h1>
@@ -41,7 +36,8 @@ export default function mobile() {
       </div>
       <div className='pb-20'>
       <h1 className='pl-8 pt-20 text-black pb-3 font-semibold text-4xl '>Progressive Web Applications</h1>
-      <p className='leading-8 mx-10 my-5 pb-15'>By avoiding app store delivery and app installation, PWAs provide an alternative to traditional mobile app development. PWAs are web applications which use browser capabilities to provide an 'app-like' user experience, such as working offline, running a background process, and adding a link to the device home screen. We have worked on frameworks 
+      <p className='leading-8 mx-10 my-5 pb-15'>By avoiding app store delivery and app installation, PWAs
+       provide an alternative to traditional mobile app development. PWAs are web applications which use browser capabilities to provide an &rsquo;app-like&rsquo; user experience, such as working offline, running a background process, and adding a link to the device home screen. We have worked on frameworks 
         such as Polymer js and have been a part of a core development team for a major travel company.</p>
         </div>
         
