@@ -7,7 +7,7 @@ export default function about() {
        <header className="h-96 w-100 px-20 bg-blue py-20 text-center" style={{
         
         backgroundImage:`url('./img.jpg')`,
-        height:"900" }}>
+        height:"900", backgroundColor:"blue" }}>
     
     <div className="bg-blur">
         

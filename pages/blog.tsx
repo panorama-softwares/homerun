@@ -12,7 +12,7 @@ export default function blog() {
     <>
       
      <body>
-      <div className="w-full h-max bg-white flex flex-wrap px-10 justify-evenly py-10 my-10 mx-10">
+      <div className="min-w-fit h-max bg-white flex flex-wrap px-10 justify-evenly py-10 my-10 mx-10">
         <div className="conatiner basis-1/3 my-3">
          <Image priority src={blg1} alt="logo" height={300} width={300}></Image>
          <div className="py-3 font-semibold text-left">IMPORTANCE OF A QA ANALYST</div>
@@ -26,7 +26,7 @@ export default function blog() {
         <div className="basis-1/3  my-3">
         <Image priority src={blg3} alt="logo" height={300} width={300}></Image>
         <div className="py-3 font-semibold text-left">NATIVE VS HYBRID APPLICATIONS</div>
-        <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2">Click here</button>
+        <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2"><Link href="/native">Click here</Link></button>
         </div>
         <div className="basis-1/3  my-5">
         <Image priority src={blg4} alt="logo" height={300} width={300}></Image>
@@ -36,7 +36,7 @@ export default function blog() {
         <div className="basis-1/3  my-5">
         <Image priority src={blg5} alt="logo" height={300} width={300}></Image>
         <div className="py-3 font-semibold text-left">WHY IS SOFTWARE TESTING IMPORTANT?</div>
-        <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2">Click here</button>
+        <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2"><Link href="/testing">Click here</Link></button>
         </div>
         <div className="basis-1/3  my-5">
         <Image priority src={blg6} alt="logo" height={300} width={300}></Image>
