@@ -5,15 +5,6 @@ import Image from "next/image";
 export default function about()
 { return(
     <>
-
-       <header className="h-96 w-100 px-20 bg-blue py-20 text-center" style={{
-        
-        backgroundImage:`url('./img.jpg')`,
-
-        height:"900", backgroundColor:"blue" }}>
-
-        height:"900" }}>
-
      <header className="h-96 w-100  bg-bluer text-center" style={{
         
         backgroundImage:`url('/img.jpg')`,
@@ -35,6 +26,7 @@ export default function about()
     </header>
     <div  className="">
 
+
         <div className="text-black text-3xl pt-10 pb-5px text-center font-bold ">WHY 'PANORAMA'?
         
         
@@ -52,14 +44,17 @@ export default function about()
         <div className="flex-wrap  flex-center  w-20 h-px bg-gray-400"></div> 
 
         <div className="text-black text-3xl pt-10 pb-5px text-center font-bold ">WHY 'PANORAMA'?
+
         
+        <div className="text-black text-3xl pt-10 pb-5px text-center font-bold ">WHY &lsquo;PANORAMA&rsquo;?
         
         <div className="flex-wrap  flex-center  w-20 h-px bg-gray-400"></div> 
         
-          </div>
+        </div>
+           
     < p className="font-mono pt-5 pb-2 ml-4 mr-4  font-medium  text-gray-600 text-2xl  text-center space-y-6">
-
         The meaning of the word panorama is &lsquo;an unbroken view of the whole region surrounding an observer&rsquo;. It all began in 
+
 
         The meaning of the word panorama is ‘an unbroken view of the whole region surrounding an observer’. It all began in 
 
@@ -77,11 +72,11 @@ export default function about()
     our company is filled with over 40 hardworking and skilled dreamers. We take pride in sharing all the same values such as: 
     beneficence, non-maleficence, autonomy, justice, truth-telling and promise-keeping. All of us at Panorama are a team, sharing 
 
-
     the same ethics and having each other&rsquo;s back.
     </p>
 
     </div>
+
     the same ethics and having each other's back.
     </p>
 
@@ -93,6 +88,7 @@ export default function about()
 
     </div>
     </>
+
 
 );
 }

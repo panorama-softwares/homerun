@@ -50,8 +50,8 @@ export default function Home({}) {
         <div className="flex h-50 w-100 justify-center mx-10 my-10">
         <button className="bg-white border border-blue hover:bg-blue hover:text-white rounded border-opacity-100 h-10 w-40">See all features</button>
         </div>
-       <div className="first flex h-96 w-100 bg-orange gap-y-5 py-20 items-center ">
-        <Image className="bg-transparent" src="https://img.freepik.com/free-photo/indoor-shot-positive-bearded-male-casual-red-t-shirt-points-with-index-finger-aside_273609-16274.jpg?w=740&t=st=1692101617~exp=1692102217~hmac=920652502265aacbb4545a29f0dc72ce7b640280c89ccf27ca62f2e97276e871" alt="man" height={574} width={574}></Image>
+       <div className="first flex h-96 w-100 bg-orange  flex-wrap gap-y-5 py-20 items-center ">
+        <Image className="bg-transparent " src="https://img.freepik.com/free-photo/indoor-shot-positive-bearded-male-casual-red-t-shirt-points-with-index-finger-aside_273609-16274.jpg?w=740&t=st=1692101617~exp=1692102217~hmac=920652502265aacbb4545a29f0dc72ce7b640280c89ccf27ca62f2e97276e871" alt="man" height={574} width={574}></Image>
         <div>
         <h3 className="text-4xl font-bold pb-8 mx-44">WHY CHOOSE US?</h3>
              <p className="mx-44">What makes Panorama stand out of the ordinary isn&rsquo;t our history of providing exceptional work on time, rather building long lasting company-client relationships. We are a one stop shop for all your business technology needs. We are much more than a company, we are your business partner, just a phone call away, 24/7. Let&rsquo;s connect!</p>
