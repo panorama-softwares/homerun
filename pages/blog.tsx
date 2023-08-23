@@ -31,17 +31,32 @@ export default function blog() {
         <div className="basis-1/3  my-5">
         <Image priority src={blg4} alt="logo" height={300} width={300}></Image>
         <div className="py-3 font-semibold text-left">WHY IS OUTSOURCING QA BENEFICIAL?</div>
+
+        <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2">
+          Click here
+        </button>
+        </div>
+        <div className="basis-1/3  my-5">
+        <Image priority src={blg5} alt="logo" height={300} width={300}></Image>
+        <div className="py-3 font-semibold text-left">WHY IS OUTSOURCING QA BENEFICIAL?</div>
+        <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2">
+        Click here
+        </button>
+
         <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2"><Link href="/outsource">Click here</Link></button>
         </div>
         <div className="basis-1/3  my-5">
         <Image priority src={blg5} alt="logo" height={300} width={300}></Image>
         <div className="py-3 font-semibold text-left">WHY IS SOFTWARE TESTING IMPORTANT?</div>
         <button className="bg-green border text-white rounded mx-28 h-10 w-38 px-2"><Link href="/testing">Click here</Link></button>
+
         </div>
         <div className="basis-1/3  my-5">
         <Image priority src={blg6} alt="logo" height={300} width={300}></Image>
         <div className="py-3 font-semibold text-left">WHAT ARE THE GOALS OF SOFTWARE TESTING?</div>
-        <button className="bg-green border mx-28 text-white rounded  h-10 w-38 px-2">Click here</button>
+        <button className="bg-green border mx-28 text-white rounded  h-10 w-38 px-2">
+        <Link href='/softwaretest'>Click here</Link>
+        </button>
         </div>
       </div>
      </body>
