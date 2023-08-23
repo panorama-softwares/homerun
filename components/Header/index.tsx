@@ -88,7 +88,7 @@ export default function Navbar() {
                     </Link>
                   </button>
                   <div
-                    className="invisible absolute z-50 flex w-90 h-50 flex-col bg-white rounded py-3 px-3 gap-x-4 text-gray-800 shadow-xl group-hover:visible"
+                    className="invisible absolute z-50 flex w-max h-50 flex-col bg-white rounded py-3 px-3 gap-x-4 text-gray-800 shadow-xl group-hover:visible"
                     onClick=""
                   >
                     <Link
@@ -148,8 +148,13 @@ export default function Navbar() {
                       Graphic Designing
                     </Link>
                     <Link
+
+                      href="/customweb"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
+
                       href=""
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
+
                     >
                       Custom Web Solution
                     </Link>
