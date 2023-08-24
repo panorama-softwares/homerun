@@ -81,81 +81,68 @@ export default function Navbar() {
                 <div className="group relative cursor-pointer py-2 ">
                   <button data-dropdown-toggle="dropdown" className="flex items-center justify-between space-x-1  px-4 text-white" data-dropdown-trigger="{hover|click}" type="button">
                     <Link
-                      href=""
+                      href="/services"
                       className="menu-hover my-2 text-base font-medium text-black lg:mx-1"
                     >
                       Services
                     </Link>
                   </button>
                   <div
-                    className="invisible absolute z-50 flex w-90 h-50 flex-col bg-white rounded py-3 px-3 gap-x-4 text-gray-800 shadow-xl group-hover:visible"
-                    onClick=""
+                    className="invisible absolute z-50 flex w-max h-50 flex-col bg-white rounded py-3 px-3 gap-x-4 text-gray-800 shadow-xl group-hover:visible"
+                    
                   >
                     <Link
                       href="/website"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
+                      className="my-2 block border-b border-gray-100 py-1 hover:text-blue font-semibold text-gray-500 md:mx-2 px-1"
                     >
                       Website Development
                     </Link>
 
                     <Link
-
-                      href=""
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
-
                       href="/mobile"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
                     >
                       Mobile Application Development
                     </Link>
                     <Link
                       href="/quality"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
                     >
                       Quality Assurance
                     </Link>
-
-                      href=""
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
-
+                    <Link
                       href="/desktop"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
-
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
                     >
                       Desktop App Development
                     </Link>
                     <Link
                       href="/search"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
                     >
                       Search Engine Optimization
                     </Link>
                     <Link
-
-                      href=""
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
-
                       href="/branding"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
-
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
                     >
                       Business Branding
                     </Link>
                     <Link
                       href="/graphic"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
                     >
                       Graphic Designing
                     </Link>
                     <Link
-                      href=""
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
+                      href="/customweb"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
                     >
                       Custom Web Solution
                     </Link>
                     <Link
                       href="/social"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
                     >
                       Social Media Marketing
                     </Link>

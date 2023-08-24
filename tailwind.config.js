@@ -43,6 +43,8 @@ module.exports = {
       gray:"#1d262d",
       green:"#4ade80",
       light:"#a5b7c6",
+      slate:'#cbd5e1',
+      off:"#0170B9"
     },
   },
   plugins: [],
