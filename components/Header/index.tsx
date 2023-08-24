@@ -94,6 +94,11 @@ export default function Navbar() {
                     <Link
                       href="/website"
                       className="my-2 block border-b border-gray-100 py-1 hover:text-blue font-semibold text-gray-500 md:mx-2 px-1"
+
+                  >
+                    <Link
+                      href="/website"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Website Development
                     </Link>
@@ -106,51 +111,50 @@ export default function Navbar() {
                     </Link>
                     <Link
                       href="/quality"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
+               
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
+
                     >
                       Quality Assurance
                     </Link>
                     <Link
                       href="/desktop"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
+                    
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Desktop App Development
                     </Link>
                     <Link
                       href="/search"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Search Engine Optimization
                     </Link>
                     <Link
                       href="/branding"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Business Branding
                     </Link>
                     <Link
                       href="/graphic"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Graphic Designing
                     </Link>
                     <Link
-
-                      href="/customweb"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
-
-                      href="/customweb"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
-
+                     
                       href=""
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
+
 
                     >
                       Custom Web Solution
                     </Link>
                     <Link
                       href="/social"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
+                     
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Social Media Marketing
                     </Link>

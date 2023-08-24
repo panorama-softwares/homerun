@@ -26,6 +26,7 @@ export default function about()
     </header>
     <div  className="">
 
+
         <div className="text-black text-3xl pt-10 pb-5px text-center font-bold ">WHY 'PANORAMA'?
         
         
@@ -43,6 +44,7 @@ export default function about()
         <div className="flex-wrap  flex-center  w-20 h-px bg-gray-400"></div> 
 
         <div className="text-black text-3xl pt-10 pb-5px text-center font-bold ">WHY 'PANORAMA'?
+
         
         <div className="text-black text-3xl pt-10 pb-5px text-center font-bold ">WHY &lsquo;PANORAMA&rsquo;?
         
@@ -52,6 +54,7 @@ export default function about()
            
     < p className="font-mono pt-5 pb-2 ml-4 mr-4  font-medium  text-gray-600 text-2xl  text-center space-y-6">
         The meaning of the word panorama is &lsquo;an unbroken view of the whole region surrounding an observer&rsquo;. It all began in 
+
 
         The meaning of the word panorama is ‘an unbroken view of the whole region surrounding an observer’. It all began in 
 
@@ -73,16 +76,7 @@ export default function about()
     </p>
 
     </div>
-    </>
-    the same ethics and having each other's back.
     </p>
-
-    </div>
-    
-    </>
-    the same ethics and having each other&rsquo;s back.
-    </p>
-
     </div>
     </>
 );
