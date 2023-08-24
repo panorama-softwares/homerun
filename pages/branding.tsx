@@ -13,7 +13,7 @@ export default function mobile() {
             <h1 className="text-white text-6xl  font-bold ">BUSINESS BRANDING</h1>     </div>
         
         </header>
-        <div className='flex'>
+        <div className='flex text-xl leading-8'>
             <div>
             <p className='leading-8  mx-20 mt-5  pt-20'>
             In business, reputation is everything and we are here to help you to make
@@ -21,7 +21,7 @@ export default function mobile() {
               principles of visual hierarchy. We also help for Re-branding to give 
               your business a new boost.<br></br>
 
-             We’ve been building websites and mobile applications for a while 
+             We&rsquo;ve been building websites and mobile applications for a while 
              now, so we can help design, develop and manage your product development. 
              The ultimate goal for any product is to help you get new customers 
              and increase your revenue and we utilize technology to bring results to grow your business.
@@ -30,8 +30,8 @@ export default function mobile() {
             <Image className="h-96 w-90  pt-12 place-self-center mr-4" src={img2} alt="logo" height={350} width={400} ></Image>
         </div>
 
-        <div>
-            <h1 className='bold text-2xl mx-20 font-bold'>Branding Services</h1>
+        <div className="text-xl leading-8">
+            <h1 className='bold text-3xl mx-20 font-bold mb-7'>BRANDING SERVICES</h1>
             <ul className="list-disc mx-20 pb-10">
                 <li>Logo Designing</li>
                 <li>Social Media Management</li>

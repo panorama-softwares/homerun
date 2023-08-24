@@ -8,7 +8,7 @@ export default function website() {
         <h1 className="font-bold text-5xl">WEBSITE  DEVELOPMENT</h1>
     </header>
     <body>
-        <div className="flex h-max w-100 my-10 mx-20 tracking-wide leading-8">
+        <div className="flex h-max w-100 my-10 mx-20 tracking-wide leading-8 text-xl">
         <div>
             <h1 className="font-semibold text-3xl my-5">Web Development</h1>
             <br></br>
@@ -24,15 +24,15 @@ export default function website() {
         </div>
             <Image className="mx-5 h-64 w-60 place-self-center"  priority src={blg2} alt="logo" height={100} width={250}></Image>
         </div>
-        <div className="my-10 mx-20 leading-8 text-justify pr-80">
+        <div className="my-10 mx-20 leading-8 text-justify pr-80 text-xl">
             <h1 className="font-semibold text-3xl py-8">Web Design That Is Unique</h1>
             <p>Our specialization is creating responsive web design that combines aesthetics and functionality to create seamless experiences across a variety of devices. Our designs are sleek, eye-catching, and intuitive, as well as precisely fitting all screen sizes, so users are impressed at the first glance.</p>
         </div>
-        <div className="my-10 mx-20 leading-8 text-justify pr-80">
+        <div className="my-10 mx-20 leading-8 text-justify pr-80 text-xl">
             <h1 className="font-semibold text-3xl py-8">Designing A Landing Page</h1>
             <p>Our team includes skilled landing page designers who can create stunning landing pages. We make certain that the pages are visually appealing and contain all of the features necessary to make an impression on clients and keep them interested.</p>
         </div>
-        <div className="my-10 mx-20 leading-8 text-justify pr-80">
+        <div className="my-10 mx-20 leading-8 text-justify pr-80 text-xl">
             <h1 className="font-semibold text-3xl py-8">Copywriting</h1>
             <p>We work on the content as well as the appearance of the websites. Our main goal is to tell engaging stories with a natural balance of text and graphics. At the same time, our copywriters ensure that the material matches the tone of voice of your company.</p>
         </div>

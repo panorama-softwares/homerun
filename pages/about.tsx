@@ -76,19 +76,8 @@ export default function about()
     </p>
 
     </div>
-
-    the same ethics and having each other's back.
     </p>
-
-    </div>
-    
-    </>
-    the same ethics and having each other&rsquo;s back.
-    </p>
-
     </div>
     </>
-
-
 );
 }

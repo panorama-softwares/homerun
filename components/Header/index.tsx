@@ -89,6 +89,11 @@ export default function Navbar() {
                   </button>
                   <div
                     className="invisible absolute z-50 flex w-max h-50 flex-col bg-white rounded py-3 px-3 gap-x-4 text-gray-800 shadow-xl group-hover:visible"
+              onClick=""
+                  >
+                    <Link
+                      href="/website"
+                      className="my-2 block border-b border-gray-100 py-1 hover:text-blue font-semibold text-gray-500 md:mx-2 px-1"
 
                   >
                     <Link
@@ -100,18 +105,21 @@ export default function Navbar() {
 
                     <Link
                       href="/mobile"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
+                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-blue md:mx-2 px-1"
                     >
                       Mobile Application Development
                     </Link>
                     <Link
                       href="/quality"
+               
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
+
                     >
                       Quality Assurance
                     </Link>
                     <Link
                       href="/desktop"
+                    
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Desktop App Development
@@ -135,13 +143,7 @@ export default function Navbar() {
                       Graphic Designing
                     </Link>
                     <Link
-
-                      href="/customweb"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-
-
-                      href="/customweb"
-                      className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
-
+                     
                       href=""
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1 hover:text-blue"
 
@@ -151,6 +153,7 @@ export default function Navbar() {
                     </Link>
                     <Link
                       href="/social"
+                     
                       className="my-2 block border-b border-gray-100 py-1 font-semibold text-gray-500 hover:text-black md:mx-2 px-1"
                     >
                       Social Media Marketing

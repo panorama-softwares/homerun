@@ -9,7 +9,7 @@ export default function graphic() {
     <h1 className="font-bold text-5xl tracking-wide">GRAPHICS DESIGNING</h1>
     </header>
     <body>
-       <div className="flex h-max w-100 my-20 mx-24">
+       <div className="flex h-max w-100 my-20 mx-24 text-xl">
         <div className="leading-8">
            <p className="pr-5">Here at Panorama we add value to everything we do, from visuals, web strategy, user experience, to development and marketing. We create work that is inspired, effective, and intelligent for your brand. We are well-known for our exquisite designs and web-related Services.</p>
            <br></br>
@@ -19,15 +19,15 @@ export default function graphic() {
         </div>
         <Image src={grap} alt='logo' height={350} width={350}></Image>
        </div>
-       <div className="mx-10 leading-8 text-justify pr-80 pl-14">
+       <div className="mx-10 leading-8 text-justify pr-80 pl-14 text-xl">
         <h1 className="font-semibold text-4xl my-5">WEB DEVELOPMENT</h1>
         <p>The web is a global marketplace that has become more competitive for attention of potential clients. As a result, having a professionally built and visually appealing website is more crucial than ever.</p>
        </div>
-       <div  className="mx-10 leading-8 text-justify pr-80 pl-14">
+       <div  className="mx-10 leading-8 text-justify pr-80 pl-14 text-xl">
         <h1 className="font-semibold text-4xl my-5">PRINT DESIGNS</h1>
         <p>What are the primary design services offered by a Graphic Design Agency? Flyer and Leaflet.Designing, Poster Designing, Dangler Designing, Advertisement Designing, Exhibition Stall.Designing, Creative Designs for Facebook Marketing, and Magazine Advertisement.Designing are some of the services offered. At Panorama you&rsquo;ll get the best service at minimum price!</p>
        </div>
-       <div  className="mx-10 leading-8 text-justify pr-80 pl-14 mb-10">
+       <div  className="mx-10 leading-8 text-justify pr-80 pl-14 mb-10 text-xl">
         <h1 className="font-semibold text-4xl my-5">LOGO DESIGNS</h1>
         <p>We consider a logo to be the face of your organization. It is the first thing that a potential customer will notice about your business; therefore, when designing a logo, we keep in mind that a logo should be designed in such a way that it can convey to potential customers that your business is professional, trustworthy, and provides quality goods or services.</p>
        </div>

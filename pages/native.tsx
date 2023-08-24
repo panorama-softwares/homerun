@@ -1,10 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 export default function native() {
   return (
     <>
     <div className="pl-20 py-20 pr-56 leading-8">
         <h1 className="font-semibold text-3xl pb-10">NATIVE VS HYBRID APPLICATIONS</h1>
+        <Link href="/response">Leave a Comment</Link>
         <p>The smartphone industry has grown significantly in recent years, and the debate over native vs hybrid app development is perhaps the most heated topic among app developers.</p>
         <br></br>
         <p>The share of mobile phone traffic increased to 52.2 percent last year, demonstrating how useful and attractive app development is.</p>
