@@ -18,7 +18,7 @@ export default function social() {
         <div className="mx-10 leading-8 text-justify pr-80 pl-14 text-xl">
             <h1 className="font-semibold text-4xl my-5">SOCIAL MEDIA ADVERTISING SERVICES</h1>
             <p>Our social media advertising services have been tested and proved to drive growth and work well in conjunction with our social media management service. As a result, when our clients use our services to build social advertisements, they typically receive better results at a lesser cost.</p>
-            <p>While Facebook advertising is the most commonly used feature of this business, we can also run Instagram ads, LinkedIn ads, and other paid social ads. This solution makes use of your advertising spend to broaden your reach and direct targeted social media users to your website or landing page, all while tracking conversions and evaluating the metrics that matter.</p>
+            <span>While Facebook advertising is the most commonly used feature of this business, we can also run Instagram ads, LinkedIn ads, and other paid social ads. This solution makes use of your advertising spend to broaden your reach and direct targeted social media users to your website or landing page, all while tracking conversions and evaluating the metrics that matter.</span>
         </div>
         <div className="mx-10 leading-8 text-justify pr-80 pl-14 text-xl">
             <h1 className="font-semibold text-4xl my-5">EMAIL AND SMS MARKETING SERVICES</h1>
