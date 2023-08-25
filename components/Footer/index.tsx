@@ -5,9 +5,6 @@ import { ReactElement } from 'react';
 
 
 
-
-
-
 export default function Footer() {
   // const [Footer, setFooter] = useState(false);
   return (
