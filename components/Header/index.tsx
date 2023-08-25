@@ -79,10 +79,10 @@ export default function Navbar() {
                 </li>
                 
                 <div className="group relative cursor-pointer py-2 ">
-                  <button data-dropdown-toggle="dropdown" className="flex items-center justify-between space-x-1  px-4 text-white" data-dropdown-trigger="{hover|click}" type="button">
+                  <button data-dropdown-toggle="dropdown" className="flex items-center justify-between  text-white" data-dropdown-trigger="{hover|click}" type="button">
                     <Link
                       href="/services"
-                      className="menu-hover my-2 text-base font-medium text-black lg:mx-1"
+                      className="menu-hover my-2 text-base font-medium text-black "
                     >
                       Services
                     </Link>

@@ -23,10 +23,10 @@ export default function mobile() {
         <p className="pr-5">Mobile app development comes in a variety of shapes and sizes. Your app may necessitate native application
        development in iOS and/or Android; this is not a problem; we&rsquo;ve built many native apps. We create mobile
       apps for a variety of industries, including IoT (Internet of Things), finance, healthcare, on-demand, 
-      travel, and eCommerce.</p><br></br><p className="pr-5">We create innovative custom mobile applications with the goal of providing the 
+      travel, and eCommerce.</p><br></br><span className="pr-5">We create innovative custom mobile applications with the goal of providing the 
       best User Experience possible. We work closely with you to understand your company&rsquo;s operations, 
       short- and long-term goals, customers, and culture. The end result is a customised solution that 
-      exceeds the expectations of your end users.</p>
+      exceeds the expectations of your end users.</span>
       
     </div>
     <Image className=" h-80 w-90 pt-12 place-self-center" src={img} alt="logo" height={300} width={350} ></Image>
@@ -41,7 +41,7 @@ export default function mobile() {
       </div>
       <div className='pb-20 pl-24 leading-8 text-xl pr-56'>
       <h1 className='pt-20 text-black pb-3 font-semibold text-4xl '>Progressive Web Applications</h1>
-      <p className=' my-5 pb-15'>By avoiding app store delivery and app installation, PWAs provide an alternative to traditional mobile app development. PWAs are web applications which use browser capabilities to provide an 'app-like' user experience, such as working offline, running a background process, and adding a link to the device home screen. We have worked on frameworks 
+      <p className=' my-5 pb-15'>By avoiding app store delivery and app installation, PWAs provide an alternative to traditional mobile app development. PWAs are web applications which use browser capabilities to provide an &lsquo;app-like&rsquo; user experience, such as working offline, running a background process, and adding a link to the device home screen. We have worked on frameworks 
         such as Polymer js and have been a part of a core development team for a major travel company.</p>
         </div>
         

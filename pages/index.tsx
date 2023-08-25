@@ -49,7 +49,7 @@ export default function Home({}) {
           <div className="bg-white basis-1/3 flex  gap-x-3"><Image  className="self-start" src={customer} alt="logo" height={50} width={50}></Image><div><h3 className="font-semibold pb-2 pt-7">Business Branding</h3><p>Let us help you in establishing your company&rsquo;s entity! We create World-class logo design with best principles of visual hierarchy which will make your company stand out of the ordinary.</p></div></div>
 
         </div>
-        <div className="flex h-50 w-100 justify-center mx-10 my-10 ">
+        <div className="flex h-50 w-100 justify-center mx-10 my-10  ">
         <button className="bg-white border border-blue hover:bg-blue hover:text-white rounded border-opacity-100 h-10 w-40">See all features</button>
         </div>
        <div className="first flex h-96 w-100 bg-orange gap-y-5 py-20 items-center ">
@@ -67,28 +67,28 @@ export default function Home({}) {
        </div>
        <div className="six flex h-1/2 w-100 justify-between py-20 px-20 leading-7">
           <p className="font-bold text-3xl">Product is what you are marketing<br></br> everyday <span className="font-normal">personalized email<br></br> automation.</span></p>
-          <Image src={social} alt="logo" height={400} width={400}></Image>
+          <Image className="animate-bounce ease-linear" src={social} alt="logo" height={400} width={400}></Image>
        </div>
        <div className="seven flex h-1/2 w-100 justify-between px-20 py-20 leading-7">
-        <Image src={video} alt="" height={400} width={400}></Image>
+        <Image className="animate-bounce" src={video} alt="" height={400} width={400}></Image>
         <p className="font-bold text-3xl">Highly Customizable Campaign <br></br>Report Data, <span className="font-normal">personalized email<br></br> automation.</span></p>
        </div>
        <div className="eight flex h-1/2 w-100 justify-between px-20 py-20 leading-7">
          <p className="font-bold text-3xl">Get Actionable Insights. Purpose<br></br> Built Trading Platform, <span className="font-normal">personalized<br></br>email automation.</span></p>
-         <Image src={analysis} alt="logo" height={400} width={400}></Image>
+         <Image className="animate-bounce" src={analysis} alt="logo" height={400} width={400}></Image>
        </div>
        <div className="third flex h-1/2 w-100 px-20 py-20 gap-x-12 justify-between">
-        <Image className="h-auto max-w-md" src={email} alt="logo" width={500} height={500}></Image>
+        <Image className="h-auto max-w-md animate-bounce" src={email} alt="logo" width={500} height={500}></Image>
         <p className="font-bold text-3xl">Achieve your marketing goals with <br></br>scalable,<div className="font-normal">personalized email automation.</div> </p>
        </div>
         <div className=" fourth flex px-20 py-20  h-96 w-100 gap-x-12 justify-between" >
         <div className="font-semibold text-3xl">Start your website with Panorama today!  <p className="font-normal text-lg pt-5">
         We understand that even the best technology is only as good as the <br></br>people behind it. That’s why we offer expert, 24/7 support!
           </p></div>
-        <Image src={tabs} alt="logo" height={400} width={400}></Image>
+        <Image className="animate-bounce" src={tabs} alt="logo" height={400} width={400}></Image>
         </div>
         <div className="fifth flex px-20 gap-x-12 justify-between">
-            <Image src={fast} alt="logo" height={500} width={500}></Image>
+            <Image className="animate-bounce" src={fast} alt="logo" height={500} width={500}></Image>
             <p className="font-semibold text-3xl mx-40">Get started quickly, easily and at a minimal price!<div className="font-normal text-base py-8 text-left">You can choose from our wide selection of pre-designed themes, or you can create your own extraordinary website and get it up and running instantly!</div></p>
         </div>
         </main>

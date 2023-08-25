@@ -24,7 +24,7 @@ export default function Footer() {
               Garg and Lokesh Singla, had a vision of promoting innovation. Today, we are a team of 60+ highly skilled
               employees who deliver exceptional work and make dreams come true.</p>
           </div>
-          {/* <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center space-x-4"> */}
+          
             <div className="lg:w-1/4 md:w-1/2 w-full px-4 space-x-6">
               <h2 className="title-font font-medium text-white tracking-widest text-sm  pb-2 ml-5 text-left space-x-6">SERVICES</h2>
               <nav className="list-none ml-0 ">

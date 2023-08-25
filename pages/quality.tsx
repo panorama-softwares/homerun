@@ -14,9 +14,9 @@ export default function quality() {
             <h1 className="font-semibold text-4xl my-5">Quality Assurance</h1>
             <p>QA Testing is another name for Quality Assurance. Quality assurance (QA) is described as an activity that ensures an organisation provides the best product or service to its consumers.</p>
             <br></br>
-            <p>It appears that software quality assurance is all about evaluating software based on functionality, performance, and adaptability, nevertheless, software quality assurance encompasses the quality of the process used to design, test, and distribute the software.</p>
+            <span>It appears that software quality assurance is all about evaluating software based on functionality, performance, and adaptability, nevertheless, software quality assurance encompasses the quality of the process used to design, test, and distribute the software.</span>
             <br></br>
-            <p>The Software Development lifecycle encompasses requirements management, software design, coding, testing, and release management, etc.</p>
+            <span>The Software Development lifecycle encompasses requirements management, software design, coding, testing, and release management, etc.</span>
         </div>
         <Image className="mx-5 h-80 w-80 place-self-center"  priority src={pic} alt="logo" height={350} width={350}></Image>
         </div>
@@ -35,7 +35,7 @@ export default function quality() {
         </div>
         <div className="mx-20 my-10 leading-8 text-justify pr-80 text-xl">
         <h1 className="font-semibold text-4xl my-5">PERFORMANCE TESTING</h1>
-        <p>One of the most difficult difficulties enterprises face today is obtaining and sustaining peak performance and scalability levels for their mission essential applications. They are vulnerable to the types of catastrophic slowdowns and breakdowns that cripple production, drive away customers, and demolish the company's bottom line if they do not have an effective approach for anticipating system behaviour and performance under real-world stress conditions. JMeter and POSTMAN are some of the frameworks we have expertise in.</p>
+        <p>One of the most difficult difficulties enterprises face today is obtaining and sustaining peak performance and scalability levels for their mission essential applications. They are vulnerable to the types of catastrophic slowdowns and breakdowns that cripple production, drive away customers, and demolish the company&rsquo;s bottom line if they do not have an effective approach for anticipating system behaviour and performance under real-world stress conditions. JMeter and POSTMAN are some of the frameworks we have expertise in.</p>
         </div>
         <div className="mx-20 my-10 leading-8 text-justify pr-80 text-xl">
             <h1 className="font-semibold text-4xl my-5">ACCESSIBILITY TESTING</h1>

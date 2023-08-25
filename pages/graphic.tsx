@@ -13,9 +13,9 @@ export default function graphic() {
         <div className="leading-8">
            <p className="pr-5">Here at Panorama we add value to everything we do, from visuals, web strategy, user experience, to development and marketing. We create work that is inspired, effective, and intelligent for your brand. We are well-known for our exquisite designs and web-related Services.</p>
            <br></br>
-           <p className="pr-5">Logo Design, Packaging Design, Brochure & Catalogue Design, and Print Advertisements are all part of our Graphic Designing service. Graphic design is the visual representation of an idea, message, or imagination. Logos, brochures, catalogues, and print advertisements, is what truly represents a company.</p>
-            <br></br>
-            <p className="pr-5">Graphic design is essential for product branding, from designing the company or organization&rsquo;s emblem, which gives it a distinct character, to preparing promotional material for the advertising of its products and services.</p>
+           <span className="pr-5">Logo Design, Packaging Design, Brochure & Catalogue Design, and Print Advertisements are all part of our Graphic Designing service. Graphic design is the visual representation of an idea, message, or imagination. Logos, brochures, catalogues, and print advertisements, is what truly represents a company.</span>
+            <br></br><br></br>
+            <span className="pr-5">Graphic design is essential for product branding, from designing the company or organization&rsquo;s emblem, which gives it a distinct character, to preparing promotional material for the advertising of its products and services.</span>
         </div>
         <Image src={grap} alt='logo' height={350} width={350}></Image>
        </div>
