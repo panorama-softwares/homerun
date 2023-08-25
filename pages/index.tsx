@@ -1,4 +1,3 @@
-
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Link from "next/link";
@@ -19,11 +18,9 @@ import mail from './mail-box.svg'
 import tool from './tool-box.svg'
 import advertise from './advertising.svg'
 
-
 export default function Home({}) {
   return (
-    <>
-      
+    <>   
       <header className="h-96 w-100 px-20 bg-blue py-20 text-center" style={{
     backgroundImage: `url('./back.png')`,
      height: "900",
@@ -111,3 +108,4 @@ export default function Home({}) {
     </>
   );
 }
+

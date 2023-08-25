@@ -1,12 +1,10 @@
 import Image from "next/image";
-// import { useState } from "react";
 
 import { ReactElement } from 'react';
 
 
 
 export default function Footer() {
-  // const [Footer, setFooter] = useState(false);
   return (
     <div>
       <footer className="text-gray-600 body-font bg-gray mt-8">
@@ -135,8 +133,6 @@ export default function Footer() {
         </div>
       </footer>
     </div>
-
-
 
   );
 }
