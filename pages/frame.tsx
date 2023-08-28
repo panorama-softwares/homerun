@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function frame() {
   return (
     <>
-    <div className="flex my-20 mx-10 leading-7">
+    <div className="flex my-20 mx-10 leading-7 flex-wrap">
     <div>
         <h1 className="font-semibold text-3xl pb-7">5 Best Web Development Frameworks To Use In 2021</h1>
         <p className="pr-9">The framework industry is already congested, with a variety of frameworks accessible, and new ones are being released all the time. This makes it difficult for businesses to settle on a single framework that meets all of their requirements. As a result, we&rsquo;ve prepared a list of the top 5 web development frameworks for your app development project in this blog. </p>

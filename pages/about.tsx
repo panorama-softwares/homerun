@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function about()
 { return(
     <>
-     <header className="h-96 w-100  bg-bluer text-center" style={{
+     <header className="h-96 w-100  bg-bluer text-center justify-center items-center" style={{
         
         backgroundImage:`url('/img.jpg')`,
         height:"400",
