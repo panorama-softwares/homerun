@@ -1,5 +1,4 @@
 
-
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Link from "next/link";
@@ -23,8 +22,7 @@ import advertise from './advertising.svg'
 
 export default function Home({}) {
   return (
-    <>
-      
+    <>   
       <header className="h-96 w-100 px-20 bg-blue py-20 text-center" style={{
     backgroundImage: `url('./back.png')`,
      height: "900",
@@ -38,7 +36,11 @@ export default function Home({}) {
       </header>
       <body>
         <main>
+
         <div className="pb-10 pt-20 flex flex-col items-center space-y-7 flex-wrap">
+
+        <div className="py-10 flex flex-col items-center space-y-7 flex-wrap">
+
         <div className="font-bold text-3xl">Our Services</div>
         <div>LET&rsquo;S TEAM UP AND WORK TOWARDS SUCCESS!</div>
         </div>

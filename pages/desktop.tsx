@@ -20,7 +20,7 @@ export default function mobile() {
         
         </header>
         
-        <div className='flex'>
+        <div className='flex text-xl'>
         <div >
         <p className='leading-8  mx-20 mt-5  pt-20'>Our company can architect, build and support 
         sophisticated websites & applications. We are a company of <br></br>specialists
