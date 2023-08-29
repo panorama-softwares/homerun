@@ -5,7 +5,8 @@ import img1 from './desktop.jpg'
 export default function mobile() {
   return (
     <>
-        <header className="h-96 w-100  bg-bluer text-center bg-blue bg-blend-multiply" style={{
+
+        <header className="h-96 w-100  bg-blue text-center bg-blue bg-blend-multiply" style={{
         
         backgroundImage:`url('/img.jpg')` ,
 
@@ -14,13 +15,15 @@ export default function mobile() {
         
         
         
+        <header  className="h-60 w-100 flex flex-row bg-blue text-white py-10 text-center sm:flex-col sm:justify-center sm:items-center">
+
         <div className="pt-16 ">
             <h1 className="text-white text-6xl  font-bold ">DESKTOP APP DEVELOPMENT</h1>
         </div>
         
         </header>
         
-        <div className='flex text-xl'>
+        <div className='flex text-xl leading-8 sm:text-center sm:flex-col md:flex-col lg:flex-row lg:text-left lg:pr-80 pl-24'>
         <div >
         <p className='leading-8  mx-20 mt-5  pt-20'>Our company can architect, build and support 
         sophisticated websites & applications. We are a company of <br></br>specialists

@@ -5,7 +5,11 @@ import img2 from './branding.jpg'
 export default function mobile() {
   return (
   <>
-  <header className="h-96 w-100  bg-bluer text-center bg-blue bg-blend-multiply" style={{
+
+  <header className="h-96 w-100  bg-blue text-center bg-blue bg-blend-multiply" style={{
+
+  <header  className="h-60 w-100 flex flex-row bg-blue text-white py-10 text-center sm:flex-col sm:justify-center sm:items-center">
+
         
         backgroundImage:`url('/img.jpg')` ,
 
@@ -25,8 +29,11 @@ export default function mobile() {
             <h1 className="text-white text-6xl  font-bold ">BUSINESS BRANDING</h1>     </div>
         
         </header>
+
         <div className='flex text-xl leading-8'>
 
+
+        <div className='flex pb-10 text-xl leading-8 sm:text-center sm:flex-col md:flex-col lg:flex-row lg:text-left lg:pr-48 pl-24'>
             <div>
             <p className='leading-8  mx-20 mt-5  pt-20'>
             In business, reputation is everything and we are here to help you to make
@@ -43,9 +50,9 @@ export default function mobile() {
             <Image className="h-96 w-90  pt-12 place-self-center mr-4" src={img2} alt="logo" height={350} width={400} ></Image>
         </div>
 
-        <div className="text-xl leading-8">
-            <h1 className='bold text-3xl mx-20 font-bold mb-7'>BRANDING SERVICES</h1>
-            <ul className="list-disc mx-20 pb-10">
+        <div className="text-xl leading-8 sm:text-center md:text-center lg:text-left lg:ml-44">
+            <h1 className='bold text-3xl font-bold mb-7'>BRANDING SERVICES</h1>
+            <ul className="list-disc  pb-10">
                 <li>Logo Designing</li>
                 <li>Social Media Management</li>
                 <li>Website hosting</li>

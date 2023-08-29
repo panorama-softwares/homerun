@@ -7,7 +7,15 @@ module.exports = {
   ],
   theme: {
 
+
      
+
+    screens:{
+      'sm': '370px',
+      'md': '990px',
+      'lg': '1200px',
+      'xl': '2500px',
+    },
     extend: {
 
       
@@ -18,39 +26,14 @@ module.exports = {
       
       
       
-        },
-
-        screens:{
-          sm: "370px",
-          md: "990px",
-          lg: "1200px",
-          xl: "1280px",
-          "2xl": "1536px",
-    
-          },
-
-
       },
+
+
+     
 
       
 
-     colors: {
-  
-      transparent:"transparent",
-           current: "currentColor",
-           purple: "#f3e8ff",
-         bluer:"#2B6CB0",
-          white:"#FFFFFF",
-         orange:"#F6AD55",
-           gray:"#212529",
-          blue:"#1d262d",
-          
-          white:"#fff"
-        
-        
-        
-        
-    },
+     
     colors: {
       transparent: "transparent",
       current: "currentColor",

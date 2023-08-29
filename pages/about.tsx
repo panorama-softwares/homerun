@@ -5,8 +5,11 @@ import Image from "next/image";
 export default function about()
 { return(
     <>
+
     <div className="sm:flex-col md:flex-row lg-flex-row">
-     <header className="h-96 w-100  bg-bluer text-center bg-blue bg-blend-multiply" style={{
+     <header className="h-96 w-100  bg-blue text-center bg-blue bg-blend-multiply" style={{
+     <header className="h-96 w-100  bg-blue text-center justify-center items-center" style={{
+
         
         backgroundImage:`url('/img.jpg')` ,
 
