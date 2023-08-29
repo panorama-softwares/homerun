@@ -1,3 +1,4 @@
+
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Link from "next/link";
@@ -17,6 +18,7 @@ import analysis from './analysis.svg'
 import mail from './mail-box.svg'
 import tool from './tool-box.svg'
 import advertise from './advertising.svg'
+
 
 export default function Home({}) {
   return (
@@ -38,7 +40,15 @@ export default function Home({}) {
       </header>
       <body>
         <main>
+
+
+        <div className="pb-10 pt-20 flex flex-col items-center space-y-7 flex-wrap">
+
+        <div className="py-10 flex flex-col items-center space-y-7 flex-wrap">
+
+
         <div className="pb-10 pt-20 flex flex-col items-center space-y-7">
+
         <div className="font-bold text-3xl">Our Services</div>
         <div>LET&rsquo;S TEAM UP AND WORK TOWARDS SUCCESS!</div>
         </div>

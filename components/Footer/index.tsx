@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div>
       <footer className="text-gray-600 body-font bg-gray mt-8">
-        <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"> 
           <div className="flex-shrink-0 md:mx-0 mx-auto text-center md:text-left lg:w-1/4 md:w-1/2 w-full px-4 space-x-6">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
               <Image src="https://panoramasoftwares.com/assets/images/logoFile/panorama-light-logo.png" alt="logo" height="200" width="200"></Image>

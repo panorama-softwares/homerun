@@ -12,7 +12,8 @@ export default function blog() {
     <>
       
      <body>
-      <div className="min-w-fit h-max bg-white flex flex-wrap px-10 justify-evenly py-10 my-10 mx-10">
+      <div className="min-w-fit h-max bg-white  flex-wrap flex px-10 justify-evenly 
+      py-10 my-10 mx-10 ">
         <div className="conatiner basis-1/3 my-3">
          <Image priority src={blg1} alt="logo" height={300} width={300}></Image>
          <div className="py-3 font-semibold text-left">IMPORTANCE OF A QA ANALYST</div>

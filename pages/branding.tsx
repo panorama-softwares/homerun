@@ -5,14 +5,34 @@ import img2 from './branding.jpg'
 export default function mobile() {
   return (
   <>
+
+  <header className="h-96 w-100  bg-blue text-center bg-blue bg-blend-multiply" style={{
+
   <header  className="h-60 w-100 flex flex-row bg-blue text-white py-10 text-center sm:flex-col sm:justify-center sm:items-center">
+
         
+        backgroundImage:`url('/img.jpg')` ,
+
+        height:"400",
+     }}>
+    <div className="h-60 w-100  text-white px-20 py-10 text-center">
+    <h1 className="font-bold text-5xl tracking-wide">BUSINESS BRANDING</h1>
+    </div>
+    </header>
+
         
+
+        <div className='flex '>
+
         
         <div className="pt-16 ">
             <h1 className="text-white text-6xl  font-bold ">BUSINESS BRANDING</h1>     </div>
         
         </header>
+
+        <div className='flex text-xl leading-8'>
+
+
         <div className='flex pb-10 text-xl leading-8 sm:text-center sm:flex-col md:flex-col lg:flex-row lg:text-left lg:pr-48 pl-24'>
             <div>
             <p className='leading-8  mx-20 mt-5  pt-20'>

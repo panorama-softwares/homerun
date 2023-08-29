@@ -5,7 +5,18 @@ import img1 from './desktop.jpg'
 export default function mobile() {
   return (
     <>
+
+        <header className="h-96 w-100  bg-blue text-center bg-blue bg-blend-multiply" style={{
+        
+        backgroundImage:`url('/img.jpg')` ,
+
+        height:"400",
+     }}>
+        
+        
+        
         <header  className="h-60 w-100 flex flex-row bg-blue text-white py-10 text-center sm:flex-col sm:justify-center sm:items-center">
+
         <div className="pt-16 ">
             <h1 className="text-white text-6xl  font-bold ">DESKTOP APP DEVELOPMENT</h1>
         </div>

@@ -6,6 +6,10 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
+
+     
+
     screens:{
       'sm': '370px',
       'md': '990px',
@@ -13,6 +17,8 @@ module.exports = {
       'xl': '2500px',
     },
     extend: {
+
+      
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -20,26 +26,14 @@ module.exports = {
       
       
       
-        },
       },
 
-     colors: {
-  
-      transparent:"transparent",
-           current: "currentColor",
-           purple: "#f3e8ff",
-         bluer:"#2B6CB0",
-          white:"#FFFFFF",
-         orange:"#F6AD55",
-           gray:"#212529",
-          blue:"#1d262d",
-          
-          white:"#fff"
-        
-        
-        
-        
-    },
+
+     
+
+      
+
+     
     colors: {
       transparent: "transparent",
       current: "currentColor",

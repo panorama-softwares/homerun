@@ -5,8 +5,19 @@ import seo from './seo.jpg'
 export default function search() {
   return (
     <>
+
+    <header className="h-96 w-100  bg-bluer text-center bg-blue bg-blend-multiply" style={{
+        
+        backgroundImage:`url('/img.jpg')` ,
+
+        height:"400",
+     }}>
+    <div className="h-60 w-100  text-white px-20 py-10 text-center">
+
     <header  className="h-60 w-100 flex flex-row bg-blue text-white py-10 text-center sm:flex-col sm:justify-center sm:items-center">
+
     <h1 className="font-bold text-5xl tracking-wide">SEARCH ENGINE OPTIMIZATION</h1>
+    </div>
     </header>
     <body>
         <div className="flex h-max w-100 my-10 mx-10 tracking-wide leading-8 px-8 text-xl sm:flex-col md:flex-col lg:flex-row">

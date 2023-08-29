@@ -4,9 +4,21 @@ import blg2 from './blg2.jpg'
 export default function website() {
   return (
     <>
+
+    <header className="h-96 w-100  bg-bluer text-center bg-blue bg-blend-multiply" style={{
+        
+        backgroundImage:`url('/img.jpg')` ,
+
+        height:"400",
+     }}>
+        <h1 className="font-bold text-5xl h-60 w-100 text-white px-24 py-10 text-center">WEBSITE  DEVELOPMENT</h1>
+     </header>
+    
+
     <header className="h-60 w-100 flex flex-row bg-blue text-white py-10 text-center sm:flex-col sm:justify-center sm:items-center">
         <h1 className="font-bold text-5xl">WEBSITE  DEVELOPMENT</h1>
     </header>
+
     <body>
         <div className="main flex h-fit w-100 my-10 mx-20 tracking-wide leading-8 text-xl justify-evenly sm:flex-col md:flex-col lg:flex-row">
           <div className="container">

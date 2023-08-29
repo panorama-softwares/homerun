@@ -21,12 +21,16 @@ export default function mobile() {
       <div className="main flex h-max w-100 my-10 mx-10 pl-5 leading-8 sm:flex-col md:flex-col lg:flex-row">   
        <div className="pl-10 text-xl">
         
-        <header className="h-60 w-100 bg-blue text-white px-20 py-10 text-center">   
-        <div className="flex  justify-center flex-col">
-          <h1 className="text-5xl font-semibold">MOBILE APPLICATION DEVELOPMENT
-          </h1>
-          </div>
-          </header>
+        
+          <header className="h-96 w-100  bg-bluer text-center bg-blue bg-blend-multiply" style={{
+        
+        backgroundImage:`url('/img.jpg')` ,
+
+        height:"400",
+     }}>
+        <h1 className="font-bold text-5xl h-60 w-100 text-white px-24 py-10 text-center">MOBILE APPLICATION DEVELOPMENT</h1>
+     </header>
+
         <div className="flex h-max w-100 my-10 mx-10 pl-5">   
         <div>
         <h1 className="pt-20 text-black pb-3 font-semibold text-4xl ">Mobile Development</h1>
