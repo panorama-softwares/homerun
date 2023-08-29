@@ -15,7 +15,7 @@ export default function Navbar() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav className="w-full bg-blue shadow sticky top=10">
+      <nav className="w-full bg-blue shadow sticky top-10">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-5">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
