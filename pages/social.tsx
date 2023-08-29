@@ -5,8 +5,16 @@ import soc from './socialmedia.jpg'
 export default function social() {
   return (
     <>
-       <header className="h-60 w-100 bg-blue text-white px-20 py-10 text-center">
+    <header className="h-96 w-100  bg-bluer text-center bg-blue bg-blend-multiply" style={{
+        
+        backgroundImage:`url('/img.jpg')` ,
+
+        height:"400",
+     }}>
+    
+       <div className="h-60 w-100 text-white px-20 py-10 text-center">
     <h1 className="font-bold text-5xl tracking-wide">SOCIAL MEDIA MARKETING</h1>
+    </div>
     </header>
     <body> 
         <div className="flex  h-max w-100 my-20 mx-24 text-justify ">

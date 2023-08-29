@@ -5,7 +5,12 @@ import img1 from './desktop.jpg'
 export default function mobile() {
   return (
     <>
-        <header className="h-80 w-100  bg-blue text-center">
+        <header className="h-96 w-100  bg-bluer text-center bg-blue bg-blend-multiply" style={{
+        
+        backgroundImage:`url('/img.jpg')` ,
+
+        height:"400",
+     }}>
         
         
         

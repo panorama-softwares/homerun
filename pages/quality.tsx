@@ -5,8 +5,14 @@ import pic from './quality.jpg'
 export default function quality() {
   return (
     <>
-    <header className="h-60 w-100 bg-blue text-white px-20 py-10 text-center">
-    <h1 className="font-bold text-5xl tracking-wide">QUALITY ASSURANCE</h1>
+    <header className="h-96 w-100  bg-bluer text-center bg-blue bg-blend-multiply" style={{
+        
+        backgroundImage:`url('/img.jpg')` ,
+
+        height:"400",
+     }}>
+
+    <h1 className="font-bold text-5xl h-60 w-100 text-white px-24 py-10 text-center">QUALITY ASSURANCE</h1>
     </header>
     <body>
         <div className="flex h-max w-100 my-10 mx-20">

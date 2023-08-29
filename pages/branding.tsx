@@ -5,15 +5,19 @@ import img2 from './branding.jpg'
 export default function mobile() {
   return (
   <>
-  <header className="h-80 w-100  bg-blue text-center">
+  <header className="h-96 w-100  bg-bluer text-center bg-blue bg-blend-multiply" style={{
         
+        backgroundImage:`url('/img.jpg')` ,
+
+        height:"400",
+     }}>
+    <div className="h-60 w-100  text-white px-20 py-10 text-center">
+    <h1 className="font-bold text-5xl tracking-wide">BUSINESS BRANDING</h1>
+    </div>
+    </header>
+
         
-        
-        <div className="pt-16 ">
-            <h1 className="text-white text-6xl  font-bold ">BUSINESS BRANDING</h1>     </div>
-        
-        </header>
-        <div className='flex'>
+        <div className='flex '>
             <div>
             <p className='leading-8  mx-20 mt-5  pt-20'>
             In business, reputation is everything and we are here to help you to make

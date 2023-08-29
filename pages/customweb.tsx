@@ -5,7 +5,14 @@ import img6 from './custom.png'
 export default function customweb() {
   return (
     <>
-        <header className="h-80 w-100  bg-blue text-center">
+        
+        <header className="h-96 w-100  bg-bluer text-center bg-blue bg-blend-multiply" style={{
+        
+        backgroundImage:`url('/img.jpg')` ,
+
+        height:"400",
+     }}>
+    
         
         
         
@@ -14,7 +21,8 @@ export default function customweb() {
         </div>
         
         </header>
-        <div className='flex '>
+        
+        <div className='flex'>
         <div>
             <p className='leading-8  mx-20 mt-5  pt-20'>
             Apart from standalone websites, we have also successfully established a variety
@@ -31,7 +39,7 @@ export default function customweb() {
         <div>
 
         </div>
-        <Image src={img6} alt='logo' height={350} width={350}></Image>
+        <Image   src={img6} alt='logo' height={350} width={350}></Image>
         </div>
         <div>
         <h1 className=' mx-16 pt-8 text-semibold text-3xl pl-2'>HOW WE WORK TO SOLVE YOUR PROBLEMS!</h1>

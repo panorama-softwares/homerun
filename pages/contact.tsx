@@ -4,6 +4,7 @@ import Image from "next/image";
 export default function contact() {
   return (
     <>
+      
       <header className="h-60 min-w-fit bg-blue text-white px-20 py-10 text-center">
         <div className="flex  justify-center flex-col">
           <h1 className="text-5xl font-semibold">CONTACT US</h1>
@@ -15,7 +16,8 @@ export default function contact() {
           </div>
         </div>
       </header>
-      <div className="h-60 min-w-fit px-20 py-20 flex space-x-10">
+      
+      <div className="h-60 min-w-fit px-20 py-20  space-x-10 container flex ">
       <svg className="w-7 h-7 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
     <path d="M16 0H4a2 2 0 0 0-2 2v1H1a1 1 0 0 0 0 2h1v2H1a1 1 0 0 0 0 2h1v2H1a1 1 0 0 0 0 2h1v2H1a1 1 0 0 0 0 2h1v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5 4.5a3 3 0 1 1 0 6 3 3 0 0 1 0-6ZM13.929 17H7.071a.5.5 0 0 1-.5-.5 3.935 3.935 0 1 1 7.858 0 .5.5 0 0 1-.5.5Z"/>
 </svg>
@@ -40,7 +42,7 @@ export default function contact() {
         
       </div>
       
-      <div className="text-center font-bold text-3xl py-8 "><p className="pb-8">FIND US!</p><p>Tower 1 - 1017-1018, Assotech Business Cresterra,<br></br> Sector 135, Noida, Uttar Pradesh 201304</p></div>
+      <div className="text-center font-bold text-3xl py-8  "><p className="pb-8">FIND US!</p><p>Tower 1 - 1017-1018, Assotech Business Cresterra,<br></br> Sector 135, Noida, Uttar Pradesh 201304</p></div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.464729949969!2d77.39939317549579!3d28.495662475739728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce938eee0193d%3A0xe337701f206b108f!2sPanorama%20Software%20Solutions!5e0!3m2!1sen!2sin!4v1692336471119!5m2!1sen!2sin" width="1400" height="550" className="border:0; loading:lazy referrerpolicy:no-referrer-when-downgrade"></iframe>
      
     </>
